@@ -2297,7 +2297,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #testimonial-slider p {
   font-family: "muli-regular", sans-serif;
-  font-size: 3.2rem;
+  font-size: 2.0rem;
   line-height: 1.5;
   color: #303030;
 }
@@ -2439,7 +2439,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 @media only screen and (max-width: 768px) {
   #testimonial-slider p {
-    font-size: 2.6rem;
+    font-size: 1.6rem;
   }
   #testimonial-slider .testimonial-author img {
     width: 6.6rem;
@@ -2458,7 +2458,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     width: 90%;
   }
   #testimonial-slider p {
-    font-size: 2.4rem;
+    font-size: 1.7rem;
   }
 }
 
