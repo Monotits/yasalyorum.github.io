@@ -1,0 +1,24 @@
+<!DOCTYPE html>  
+<html> 
+<head>
+    <title>Yasal Yorum - Hukuki Soru Cevap Uygulaması</title>
+    <script>
+        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        if (isMobile) {
+            var userOS = navigator.userAgent;
+            if (/Android/i.test(userOS)) {
+                window.location.href = "https://play.google.com/store/apps/details?id=dev.umay.yasalyorum";
+            } else if (/iPhone|iPad|iPod/i.test(userOS)) {
+                window.location.href = "https://apps.apple.com/us/app/yasal-sorulara-yasal-yorumlar/id6448566417";
+            }
+        } else {
+            window.location.href = "https://yasalyorum.com/";
+        }
+    </script>
+</head> 
+<body>  
+    <h1>Web Sayfa Yönlendirme</h1> 
+</body> 
+</html>
+
+
